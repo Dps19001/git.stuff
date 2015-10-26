@@ -1,4 +1,4 @@
-puts "Rock, paper or scissor"
+puts 'Rock, paper or scissor'
 w = l = t = j = 0 # inline instanciation
 # instanciate choice outside the loop otherwise it is recreate each turn
 choice = %i(paper rock scissor) # use a literal symbols array to define choices
